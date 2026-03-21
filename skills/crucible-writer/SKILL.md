@@ -1,12 +1,12 @@
 ---
 name: crucible-writer
 # prettier-ignore
-description: First-draft writing assistant for Crucible-planned novels. Use when author has completed planning (crucible-planner) and outlining (crucible-outliner) and wants to write the actual prose. Handles scene-by-scene drafting, style matching, continuity tracking, and hallucination prevention. Triggers on "write my novel," "draft chapter X," "start writing from my outline," "help me write my book," or when user has Crucible outline and wants prose output. Works with any Crucible-planned story.
+description: First-draft writing assistant for Crucible-planned novels across all supported genres (fantasy, sci-fi, dystopian/utopian, space opera, thriller, alternate history, romantasy). Use when author has completed planning (crucible-planner) and outlining (crucible-outliner) and wants to write the actual prose. Handles scene-by-scene drafting, style matching, continuity tracking, and hallucination prevention. Triggers on "write my novel," "draft chapter X," "start writing from my outline," "help me write my book," or when user has Crucible outline and wants prose output.
 ---
 
 # Crucible Writer
 
-Transform Crucible outlines into first-draft prose while maintaining style consistency, plot fidelity, and narrative quality.
+Transform Crucible outlines into first-draft prose while maintaining style consistency, plot fidelity, and narrative quality. Adapts to the genre selected during planning.
 
 ## Critical Principles
 
@@ -26,6 +26,9 @@ Transform Crucible outlines into first-draft prose while maintaining style consi
 - `references/style-capture.md` — Learning and maintaining author voice
 - `references/anti-hallucination.md` — Verification protocols
 - `references/prose-craft.md` — Genre conventions and techniques
+
+**Also read the genre pack** (check the project state or planning/crucible-thesis.md for the selected genre):
+- `genre-packs/<genre>/genre-rules.md` — Genre conventions for prose style and trope handling
 
 ## Questioning Rules
 
@@ -95,10 +98,11 @@ Present the extracted parameters, then use AskUserQuestion:
 ```
 **Writing Parameters:**
 
+Genre: [From planning state — fantasy/sci-fi/dystopian-utopian/space-opera/thriller/alternate-history/romantasy]
 Target words per chapter: [calculated from total ÷ chapters]
 POV style: [First/Third Limited/Third Omniscient/Multiple]
 Tense: [Past/Present]
-Genre conventions to follow: [Cultivation fantasy / Epic fantasy / etc.]
+Genre conventions to follow: [Loaded from genre-packs/<genre>/genre-rules.md]
 Pacing preference: [Dense/Balanced/Breezy]
 ```
 

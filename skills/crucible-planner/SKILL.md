@@ -1,12 +1,12 @@
 ---
 name: crucible-planner
 # prettier-ignore
-description: Interactive planning system for epic fantasy novels using the Crucible Structure—a 36-beat narrative framework with three interwoven story strands (Quest, Fire, Constellation), five Forge Points, and a Mercy Engine. Use when user wants to plan a fantasy novel, provides a story premise/synopsis, asks to "plan my fantasy book," wants to create planning documents for an epic fantasy, or mentions the Crucible Structure. Guides users through multi-choice questions to generate 7 planning document categories (14 files total) from a simple premise.
+description: Interactive planning system for fiction novels using the Crucible Structure—a 36-beat narrative framework with three interwoven story strands (Quest, Fire, Constellation), five Forge Points, and a Mercy Engine. Supports multiple genres including fantasy, sci-fi, dystopian/utopian, space opera, thriller, alternate history, and romantasy. Use when user wants to plan a novel, provides a story premise/synopsis, asks to "plan my book," wants to create planning documents, or mentions the Crucible Structure. Guides users through multi-choice questions to generate 7 planning document categories (14 files total) from a simple premise.
 ---
 
 # Crucible Planner
 
-Interactive planning system for epic fantasy novels using the Crucible Structure.
+Interactive planning system for fiction novels using the Crucible Structure. Supports multiple genres through genre packs.
 
 ## Overview
 
@@ -25,6 +25,11 @@ Starting from a simple premise, guide users through multi-choice questions to bu
 **Always read these references:**
 - `references/crucible-structure.md` (the 36-beat structure)
 - `references/question-sequences.md` (complete question flows)
+
+**After genre selection, also read:**
+- `genre-packs/<selected-genre>/genre-rules.md` (genre conventions)
+- `genre-packs/<selected-genre>/question-overrides.md` (genre-specific question options)
+- `genre-packs/<selected-genre>/world-building-guide.md` (genre world-building guidance)
 
 ## Workflow
 
@@ -67,6 +72,52 @@ Extract from user input:
 ```bash
 python scripts/init_project.py "./crucible-project" "Title" "Premise"
 ```
+
+### Select Genre
+
+**CRITICAL: Genre must be selected before scope confirmation.** This loads the genre pack that provides genre-specific question options, rules, and world-building guidance.
+
+Use AskUserQuestion for genre selection:
+```json
+{
+  "questions": [
+    {
+      "header": "Genre",
+      "question": "What genre is your story?",
+      "options": [
+        {"label": "Fantasy", "description": "Epic/high fantasy, sword & sorcery, dark fantasy, low fantasy"},
+        {"label": "Sci-Fi", "description": "Hard SF, soft SF, cyberpunk, biopunk, near/far-future"},
+        {"label": "Space Opera", "description": "Galactic-scale adventure, military SF, space fantasy"},
+        {"label": "Romantasy", "description": "Romantic fantasy, fae romance, fantasy with romance as co-plot"}
+      ],
+      "multiSelect": false
+    }
+  ]
+}
+```
+
+If user selects "Other" or needs more options, offer second set:
+```json
+{
+  "questions": [
+    {
+      "header": "Genre",
+      "question": "Which of these genres fits your story?",
+      "options": [
+        {"label": "Dystopian/Utopian", "description": "Totalitarian, corporate, ecological, or fallen utopia"},
+        {"label": "Thriller", "description": "Psychological, political, espionage, conspiracy, techno-thriller"},
+        {"label": "Alternate History", "description": "Historical divergence, counterfactual, secret history"}
+      ],
+      "multiSelect": false
+    }
+  ]
+}
+```
+
+**After genre selection:**
+1. Store the genre in project state: `python scripts/save_state.py "<project_path>" --answer "meta" "genre" "What genre is your story?" "<selected>" "<description>"`
+2. Read the three genre pack files from `genre-packs/<selected-genre>/`
+3. Use genre-specific question options from `question-overrides.md` during Phase 2
 
 ### Confirm Scope
 
@@ -228,7 +279,9 @@ Example AskUserQuestion call:
 
 ### Document Sequence
 
-See `references/question-sequences.md` for complete question banks.
+See `references/question-sequences.md` for base question banks.
+
+**IMPORTANT:** For each question, check `genre-packs/<genre>/question-overrides.md` for genre-specific options. If an override exists for a question ID, use the genre-specific options instead of (or alongside) the base options. This ensures questions feel natural for the selected genre.
 
 **Document 1: Crucible Thesis (10 questions)**
 - The Burden (external mission)

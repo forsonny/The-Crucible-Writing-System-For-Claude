@@ -1,7 +1,7 @@
 ---
 name: crucible-editor
 # prettier-ignore
-description: Revision and editing assistant for Crucible-drafted novels. Use when author has completed a first draft and wants to revise, edit, or polish their manuscript. Handles developmental editing, line editing, copy editing, and final polish. Triggers on "edit my novel," "revise chapter X," "polish my manuscript," "help me edit," or when user has completed draft chapters and wants to improve them.
+description: Revision and editing assistant for Crucible-drafted novels across all supported genres (fantasy, sci-fi, dystopian/utopian, space opera, thriller, alternate history, romantasy). Use when author has completed a first draft and wants to revise, edit, or polish their manuscript. Handles developmental editing, line editing, copy editing, and final polish. Triggers on "edit my novel," "revise chapter X," "polish my manuscript," "help me edit," or when user has completed draft chapters and wants to improve them.
 ---
 
 # Crucible Editor

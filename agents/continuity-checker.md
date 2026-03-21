@@ -59,10 +59,10 @@ For each character appearing in the chapters:
 - Travel times reasonable for distances?
 - Geography consistent?
 
-**Magic System Rules**
-- Power limitations respected?
+**Speculative System Rules** (magic, technology, power structure — varies by genre)
+- Power/system limitations respected?
 - Costs/requirements followed?
-- No new abilities without establishment?
+- No new abilities/capabilities without establishment?
 
 **Cultural Details**
 - Customs/traditions consistent?

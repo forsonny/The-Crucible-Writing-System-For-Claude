@@ -3,7 +3,8 @@
 ## Project Info
 - **Title**: [TITLE]
 - **Series**: [SERIES NAME] Book [#]
-- **Genre**: Epic Fantasy
+- **Genre**: [GENRE — fantasy/sci-fi/dystopian-utopian/space-opera/thriller/alternate-history/romantasy]
+- **Genre Pack**: genre-packs/[GENRE]/
 - **Target**: [TARGET] words
 - **Current**: [CURRENT] words
 
