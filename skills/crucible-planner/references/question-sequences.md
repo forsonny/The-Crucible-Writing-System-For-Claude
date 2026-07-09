@@ -1,6 +1,14 @@
 # Question Sequences
 
-Complete question bank for all 9 planning documents.
+Complete **base** question bank for all 9 planning documents.
+
+## Genre Override System
+
+These are the default/base question options. **Each genre pack provides overrides** in `genre-packs/<genre>/question-overrides.md` that replace or augment specific question options to feel natural for the selected genre.
+
+**How to use:** For each question below, check the active genre's `question-overrides.md` file. If an override exists for that question ID (e.g., Q1.2, Q9.1), use the genre-specific options instead. If no override exists, use the base options below.
+
+---
 
 ## Document 1: Crucible Thesis (10 Questions)
 
@@ -770,6 +778,8 @@ F) Other (describe)
 ---
 
 ## Document 9: World Forge (9 Questions)
+
+> **NOTE:** World Forge questions are the most genre-sensitive. Always check `genre-packs/<genre>/question-overrides.md` for genre-specific options. The base options below are fantasy-flavored defaults.
 
 ### Q9.1 — World's Wound
 ```

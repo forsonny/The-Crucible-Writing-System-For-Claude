@@ -1,12 +1,12 @@
 ---
 name: crucible-outliner
 # prettier-ignore
-description: Chapter-by-chapter outline generator for stories planned with the Crucible Structure. Use when a user has completed Crucible planning documents (thesis, strand maps, forge points, etc.) and wants to create detailed chapter outlines. Triggers on requests like "outline my book," "create chapter outline," "outline Book 1," "turn my Crucible plan into chapters," or when user has Crucible planning docs and wants to start writing. Works for single books or multi-book series.
+description: Chapter-by-chapter outline generator for stories planned with the Crucible Structure. Supports all genres (fantasy, sci-fi, dystopian/utopian, space opera, thriller, alternate history, romantasy). Use when a user has completed Crucible planning documents (thesis, strand maps, forge points, etc.) and wants to create detailed chapter outlines. Triggers on requests like "outline my book," "create chapter outline," "outline Book 1," "turn my Crucible plan into chapters," or when user has Crucible planning docs and wants to start writing. Works for single books or multi-book series.
 ---
 
 # Crucible Outliner
 
-Transform Crucible planning documents into detailed chapter-by-chapter outlines with proper narrative craft.
+Transform Crucible planning documents into detailed chapter-by-chapter outlines with proper narrative craft. Adapts to the genre selected during planning.
 
 ## Before Starting
 
@@ -14,6 +14,9 @@ Transform Crucible planning documents into detailed chapter-by-chapter outlines 
 - `references/beat-to-chapter-mapping.md` — How 36 beats map to chapters
 - `references/narrative-craft.md` — Foreshadowing, pacing, scene structure
 - `references/outline-templates.md` — Chapter and scene outline formats
+
+**Also read the genre pack** (check the project state or planning/crucible-thesis.md for the selected genre):
+- `genre-packs/<genre>/genre-rules.md` — Genre conventions that affect outline structure
 
 ## Questioning Rules
 

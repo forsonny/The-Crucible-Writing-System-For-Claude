@@ -1,6 +1,8 @@
 {
   "meta": {
     "title": "[BOOK TITLE]",
+    "genre": "[GENRE]",
+    "genre_pack": "genre-packs/[GENRE]/",
     "series": null,
     "book_number": 1,
     "target_words": 100000,

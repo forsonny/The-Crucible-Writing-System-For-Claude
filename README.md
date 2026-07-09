@@ -87,6 +87,9 @@ Example:
 | `/crucible-suite:crucible-status` | Show project progress |
 | `/crucible-suite:crucible-continue` | Resume from any phase |
 | `/crucible-suite:crucible-review [range]` | Trigger manual review |
+| `/crucible-suite:crucible-tic-audit [scope]` | Prose-tic scan against hard style caps, optional fix pass |
+| `/crucible-suite:crucible-expand [scope] [target]` | Safe word-count expansion (fix-first, small additions) |
+| `/crucible-suite:crucible-handoff [name]` | Session-close ritual: measured counts, bible sync, handoff doc |
 | `/crucible-suite:crucible-restore [timestamp]` | Restore from backup |
 
 ## The Crucible Structure
@@ -281,4 +284,4 @@ MIT License - See [LICENSE](LICENSE) for details.
 
 ---
 
-*Version 1.0.18 -- [Changelog](CHANGELOG.md) -- [License](LICENSE)*
+*Version 2.1.0 -- [Changelog](CHANGELOG.md) -- [License](LICENSE)*

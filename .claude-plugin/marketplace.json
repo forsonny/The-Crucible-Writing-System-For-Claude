@@ -7,8 +7,8 @@
   "plugins": [
     {
       "name": "crucible-suite",
-      "version": "1.0.17",
-      "description": "Complete writing system for epic fantasy novels using the Crucible Structure. Includes planning, outlining, prose writing with bi-chapter reviews, and editing.",
+      "version": "2.1.0",
+      "description": "Complete multi-genre writing system using the Crucible Structure. Supports fantasy, sci-fi, dystopian/utopian, space opera, thriller, alternate history, and romantasy. Includes planning, outlining, prose writing with bi-chapter reviews, editing, tic auditing, safe expansion, and session handoffs.",
       "author": {
         "name": "Crucible Writing System"
       },
@@ -35,18 +35,24 @@
       ],
       "skills": [
         "./skills/crucible-editor/SKILL.md",
+        "./skills/crucible-expand/SKILL.md",
+        "./skills/crucible-handoff/SKILL.md",
         "./skills/crucible-outliner/SKILL.md",
         "./skills/crucible-planner/SKILL.md",
+        "./skills/crucible-tic-audit/SKILL.md",
         "./skills/crucible-writer/SKILL.md"
       ],
       "commands": [
         "./commands/crucible-continue.md",
         "./commands/crucible-edit.md",
+        "./commands/crucible-expand.md",
+        "./commands/crucible-handoff.md",
         "./commands/crucible-outline.md",
         "./commands/crucible-plan.md",
         "./commands/crucible-restore.md",
         "./commands/crucible-review.md",
         "./commands/crucible-status.md",
+        "./commands/crucible-tic-audit.md",
         "./commands/crucible-write.md"
       ],
       "source": "./"

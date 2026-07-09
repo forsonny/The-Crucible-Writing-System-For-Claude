@@ -5,6 +5,68 @@ All notable changes to the Crucible Suite plugin will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2026-07-08
+
+### Added
+
+#### Operating Manuals (CLAUDE.md rewrite)
+- New root `CLAUDE.md` - plugin development manual: repo map, architecture and
+  state machinery reference, canonical rulings for doc inconsistencies, named
+  landmines with preventing rules, per-deliverable quality bars, escalation rules
+- Rewrote `templates/CLAUDE.md` as a project operating manual: source-of-truth
+  table, session protocol, measure-don't-estimate rules, checkable quality bars,
+  exact escalation triggers. Adds the `Book Title:` line that detection scripts
+  (`load_project_context.py`, `detect_project.py`, `status_reporter.py`) parse -
+  fixes title always reading as "Untitled"
+
+#### Three New Skills
+- **crucible-tic-audit** (`/crucible-suite:crucible-tic-audit`) - deterministic
+  prose-tic scanner (`tic_scan.py`) with hard per-chapter caps (filter words,
+  said-bookisms, em-dash-per-scene limits, signature-word overuse,
+  declarative-opening percentage, sentence stats, metaphor-domain drift flags),
+  LLM judgment pass for context-dependent tics, optional subtractive fix pass.
+  Caps overridable via project-root `tic-caps.json`
+- **crucible-expand** (`/crucible-suite:crucible-expand`) - safe word-count
+  expansion pipeline: pre-edit backups, mandatory tic-clean baseline,
+  author-approved expansion map, 100-200 word voice-matched additions,
+  per-chapter re-scans, measured before/after reporting
+- **crucible-handoff** (`/crucible-suite:crucible-handoff`) - session-close
+  ritual: measured word counts (wc -w), story-bible reconciliation, CLAUDE.md
+  status update, structured SESSION handoff document for cold-start resume
+
+### Fixed
+- Version drift: `VERSION`, `plugin.json`, `marketplace.json`, and the README
+  footer now all agree (previously 1.0.18 / 2.0.0 / 1.0.17 / 1.0.18)
+- `marketplace.json` plugin description updated to multi-genre (was still
+  epic-fantasy-only from v1.x)
+
+## [2.0.0] - 2026-03-21
+
+### Added
+
+#### Multi-Genre Support (7 Genre Packs)
+- New `genre-packs/` directory with seven packs: `fantasy`, `sci-fi`,
+  `dystopian-utopian`, `space-opera`, `thriller`, `alternate-history`,
+  `romantasy`
+- Each pack is three files: `genre-rules.md`, `question-overrides.md`,
+  `world-building-guide.md`
+- `genre-packs/genre-config.md` + `genre-packs/README.md` - selection and
+  override mechanics
+- New base `rules/genre-writing.md` (generalizes the Sanderson-style
+  speculative-system laws across genres)
+- Planner Phase 1 intake gains genre selection (saved via
+  `save_state.py --answer "meta" "genre"`); outliner, writer, and editor are
+  genre-aware
+- `templates/CLAUDE.md` gains Genre / Genre Pack fields
+
+### Unchanged
+- The 36-beat core (three strands, five movements, Forge Points, Mercy Engine,
+  Dark Mirror), all scripts, and all five review agents are identical across
+  genres
+
+*(Backfilled 2026-07-08 - this release shipped in commit `e3ad069` without a
+changelog entry.)*
+
 ## [1.0.18] - 2025-12-20
 
 ### Added

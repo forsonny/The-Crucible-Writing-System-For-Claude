@@ -1,0 +1,28 @@
+{
+  "_comment": "Default per-chapter tic caps. Override by placing a tic-caps.json at the project root. All caps are hard ceilings per chapter unless noted.",
+  "filter_words": 0,
+  "said_bookisms": 0,
+  "not_x_y": 3,
+  "the_way": 3,
+  "something": 5,
+  "noun_of_a_person_who": 2,
+  "the_particular": 2,
+  "signature_phrases": {
+    "the introvert's": 2
+  },
+  "em_dashes_per_scene": 3,
+  "signature_words": {
+    "architecture": 15
+  },
+  "declarative_opening_pct_max": 45,
+  "avg_sentence_length_target": 16,
+  "long_sentence_words": 40,
+  "very_long_sentence_words": 60,
+  "metaphor_domains_allowed": ["architecture", "temperature", "gravity"],
+  "metaphor_drift_watchlist": {
+    "water": ["flood", "flooded", "drown", "drowning", "tide", "tides", "wave", "waves", "ripple", "rippled", "ocean", "river"],
+    "botanical": ["bloom", "bloomed", "blossom", "roots", "rooted", "vine", "wither", "withered", "dormant"],
+    "medical": ["fever", "infection", "infected", "symptom", "symptoms", "diagnosis"],
+    "music": ["melody", "symphony", "harmony", "chord", "crescendo"]
+  }
+}
