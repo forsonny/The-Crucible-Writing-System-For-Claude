@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "source": "Captured from Book 2 manuscript chapters 1-5 (~16,600 words) and Book 1 'Riftmarked' chapter 1.5 sample",
+    "captured": "2026-07-12",
+    "note": "Descriptive, not prescriptive. When drafting, match these patterns; when in doubt, imitate the nearest written scene."
+  },
+  "banned_list": {
+    "source": "planning/source-banned-list.md — the author's BANNED: THE DEFINITIVE GUIDE. HARD CONSTRAINT: audit every drafted scene against it before saving.",
+    "highest_frequency_traps": [
+      "'something' + verb as interiority placeholder — name what is actually happening",
+      "'X, then Y' sequential action pairs",
+      "anthropomorphized silence (stretches/hangs/sits/belongs) — show who breaks it and what it costs",
+      "'not X, but Y' hedges and 'isn't quite' reactions — commit",
+      "triple-beat noun/fragment lists and echo-line parallel sentences",
+      "'for a (long) moment' / 'a pause, then' beat placeholders",
+      "narrated cognition: filed/noted/registered/catalogued — cut every instance",
+      "stock physical tells: jaw works/tightens, breath catches, knuckles whiten, goes very still",
+      "precision/control cluster: surgical, practiced ease, methodical, calculated",
+      "texture defaults: steel/iron/velvet/silk; temperature metaphors for emotion",
+      "impact similes (like a blow/punch) and stone-in-water ripples",
+      "adverb dialogue tags (softly, quietly, finally); voice drops/hardens",
+      "articulation by proxy: 'a look that said', 'didn't need words'",
+      "participle editorializing: highlighting/underscoring/reflecting",
+      "'commanded the room' presence cliches; gravitational attraction metaphors"
+    ],
+    "workflow": "Draft, then grep the new text against the quick-scan table in the source doc before committing. The author's existing prose is exempt from retroactive edits unless they ask."
+  },
+  "pov_and_structure": {
+    "pov": "Close third person, single POV per chapter, rotating (Brunor, Elaine, Phoebe, Frederick planned)",
+    "chapter_header": "Chapter N: [POV name]",
+    "dateline_block": "Bracketed lines open each chapter/section: [date, e.g. 8th of Ashenfall, 982 A.M.] [Day of X | Season — Month (Deity)] [Time span | Place, Region, Realm]",
+    "epigraph": "Each chapter opens with a one-line first-person italic interior question/statement from the POV character (e.g. 'As the world gets torn asunder, what will my faith demand of me?')",
+    "scene_breaks": "'***' or '-----' between scenes; datelines reappear for major time/location shifts",
+    "chapter_length_words": "1,300-4,600 observed; most 3,200-4,500"
+  },
+  "prose_texture": {
+    "sentences": "Long, sensory, clause-stacked description alternating with short declarative punches ('Cold kept a man true.'). Fragments used for tactical beats: 'Left treeline, right treeline. Flank. Tracks. Listening.'",
+    "interiority": "Free indirect discourse dominant; direct thought in italics, sparingly, often one line ('He grounded me... He put me in an enclosure.')",
+    "sensory_priority": "Smell and sound lead scene-setting (damp pine, tanned leather, hot wax, the salty mineral tang of the Aldren); temperature and rain as persistent physical presence",
+    "punctuation": "Heavy, confident em-dash use for interruption and apposition; ellipses rare, for trailing speech",
+    "spelling_note": "COPYEDIT FLAG: mixed British/American spellings in manuscript (colour/color, recognised/recognized) - author to pick one"
+  },
+  "combat_writing": {
+    "approach": "Technical and legible: named fencing concepts (measure, tempo, bind, riposte, parry, invitation) filtered through POV expertise; reads opponents via footwork and weight",
+    "rhythm": "Exchanges in short paragraphs; sensory cost emphasized (forearms singing, split lip 'like mashed cherries'); no gore for its own sake",
+    "signature": "Fights are characterization - Damien fights 'as if correcting a pupil'; Brunor hunts the flaw in the pattern; psychological warfare mid-duel"
+  },
+  "dialogue": {
+    "general": "Banter-forward, distinct idiolects, action beats instead of said-bookisms; arguments escalate in long alternating volleys",
+    "brunor": "Terse, flat declaratives; deflects; goes silent under emotion; dry cold humor ('It's even harder now.')",
+    "elaine": "Surgical, escalating; rhetorical questions as weapons; rants that run their course and pivot to absurd specifics (six carps for stabling); 'Unbecoming.' as verdict",
+    "frederick": "Self-dramatizing jocularity ('Drinking alone. Like a hound.'); counts things; blunt honesty when it matters ('Two ropes... I count what's there.')",
+    "damien": "Courtly cruelty, theatrical, speaks to the crowd not the opponent; surgical insults dressed as observation",
+    "mikah": "Dialect: 'yer', 'ya', ''ere'; gravel menace",
+    "tella": "Rough warmth; imperatives; 'child'; teaching metaphors (move with the grain, direct the blade with your soul)",
+    "west_book1": "Clinical detachment, dry irony, unbothered authority ('In this room, I outrank the King himself.')",
+    "phoebe": "Quick, indignant, young; challenges authority then yields with conditions"
+  },
+  "riftmark_rendering": {
+    "rule": "Emotions arrive as readable objects with texture and weight, in slices; the mark 'catches', 'reads', 'gives nothing'; absence/void is more alarming than intensity",
+    "examples": "'the hawkers' practiced cheer lay thin over something wound too tight underneath'; 'an old guilt sat packed and quiet under a face doing nothing at all'; 'Calm has a shape. There wasn't a single emotion I could read.'",
+    "nullbrand_interaction": "Proximity to Brunor/Nullbrand mutes the mark ('Nullbrand's suffocating aura', 'the hush slid off her'); distance wakes it"
+  },
+  "recurring_motifs": [
+    "Eyes catching/holding light (Johanna's amber vs Elaine's 'permafrost trapping a flame in time')",
+    "Monsters / 'we breed what we are' / who gets to say what a monster is",
+    "Promises, names, legacy ('Leave something worth remembering behind')",
+    "Rain as pressure and concealment; the two moons as Brunor's 'oldest companions'",
+    "Ravens and feathers (Elaine's cloak); matched blackness (hair, horse, cloak, sword)",
+    "Counting as coping (Elaine's exits and eyes; Frederick counting what's there)"
+  ],
+  "profanity_and_register": {
+    "oaths": "'Gods' (plural), 'hells' (plural), 'gods-knew-how-far'",
+    "profanity": "Sparing but hard when used ('ratshite', 'worthless fucking company', 'Fuck off'); coarser in Frederick/Mikah/Damien registers; Elaine swears when control slips",
+    "content": "Adult; violence with consequences; implied sexual violence handled at a distance (Damien's taunt about Alessa cut off mid-sentence)"
+  },
+  "worldbuilding_delivery": {
+    "rule": "Facts arrive through use and opinion, never exposition dumps - castles as 'receipts', the council through Brunor's contempt, history through what locals call a square (the Crimson Cage)",
+    "names": "Hard-consonant Germanic/Celtic-flavored (Caer Seryth, Uthred Halvyr, Vespine's Cradle) beside softer romance names (Elaine, Damien, Celisia)"
+  }
+}

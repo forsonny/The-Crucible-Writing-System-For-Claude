@@ -1,4 +1,57 @@
 {
-  "description": "Crucible Suite automation hooks for backup, context loading, and review enforcement. Note: All 'matcher' fields use regex patterns per Claude Code hooks spec (e.g., 'Write|Edit' matches either tool, 'startup|resume|clear|compact' matches any SessionStart trigger type). DISABLED: Hooks temporarily disabled due to plugin cache version mismatch. Re-enable after Claude Code restart.",
-  "hooks": {}
+  "description": "Crucible Suite automation hooks for backup, context loading, and review enforcement. Note: All 'matcher' fields use regex patterns per Claude Code hooks spec (e.g., 'Write|Edit' matches either tool, 'startup|resume|clear|compact' matches any SessionStart trigger type).",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/run_python.sh\" \"${CLAUDE_PLUGIN_ROOT}/scripts/validate_before_write.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/run_python.sh\" \"${CLAUDE_PLUGIN_ROOT}/scripts/load_project_context.py\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/run_python.sh\" \"${CLAUDE_PLUGIN_ROOT}/scripts/backup_on_change.py\"",
+            "timeout": 30
+          },
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/run_python.sh\" \"${CLAUDE_PLUGIN_ROOT}/scripts/extract_invented_markers.py\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/run_python.sh\" \"${CLAUDE_PLUGIN_ROOT}/scripts/check_stop_conditions.py\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
 }

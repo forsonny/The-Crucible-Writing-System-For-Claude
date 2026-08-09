@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "title": "For the Promise",
+    "series": "The Eōtria Saga (prequel series), Book 2",
+    "book_number": 2,
+    "book_1": "Riftmarked (981-982 A.M.)",
+    "target_words": null,
+    "target_chapters": null,
+    "created": "2026-07-12T21:00:00",
+    "updated": "2026-07-12T21:30:00",
+    "_provenance": "Built from the Book 2 manuscript (draft/chapters/, ~16,600 words), the author's character sheets, worldbuilding compendium, Book 1 sample, and roadmap. Prose is the highest authority. See planning/constellation-bible.md 'Continuity Flags' for known contradictions.",
+    "_date_flag": "Manuscript datelines say 982 A.M.; compendium places Book 2 in 983-985 A.M. (Flag #13)"
+  },
+  "progress": {
+    "current_chapter": 7,
+    "current_scene": "Chapters 5b, 6, 7 drafted pending author review; next: Act One closer (the departure from Glintgate)",
+    "total_words": 25000,
+    "chapters_complete": 4,
+    "status": "mid-draft"
+  },
+  "chapters": {
+    "1": {
+      "title": "The Arrival",
+      "pov": "Brunor",
+      "dates": "7th-8th of Ashenfall, 982 A.M.",
+      "word_count": 4529,
+      "summary": "Campfire in the Blackwood clearing north of Vespine's Cradle: Munch, the rabbits, the two moons. Brunor's memory-spiral of Uthred's harshness and Johanna at the Hudria watchtower; the headache that follows. The monsters argument (Stonefield, Erasmus); Elaine reveals Johanna's bundle — the silver-blue river stone and the unfinished stallion carving — and her vow. Next morning: the Silver Road, Glintgate, Mikah Cullard at the Silver Gate (letter inspection; asks where Phoebe is), the stables, Frederick waiting. Council 'tomorrow'.",
+      "completed": true,
+      "final_state": {
+        "brunor": {
+          "location": "Glintgate stables",
+          "emotional_state": "Closed after shutting down the Johanna conversation"
+        },
+        "elaine": {
+          "location": "Glintgate stables",
+          "emotional_state": "Rebuffed; carrying the bundle and the silence"
+        }
+      }
+    },
+    "2": {
+      "title": "The Square",
+      "pov": "Elaine",
+      "dates": "8th of Ashenfall, afternoon-evening",
+      "word_count": 3262,
+      "summary": "Merchant quarter/Goldroad: amenicite daggers, the mark reading war-dread under the hawkers' cheer, alms to beggars, the amethyst necklace — then the hooded man wearing it: followed since the gate, meant to be seen. Bordou Square ('the Crimson Cage'): Hans delivers Damien's summons naming 'Elaine Morrandis the Bastard'; Brunor's dagger draws blood; Lord Chancellor Damien Beauforth arrives — Gungnir, the golden runed blade. Accusations traded: Alessa's ambush vs a Naaren-spy story. Qunthren bay taunts. 'To lose the rift and your dignity in the same night.' Contest of arms accepted: to whoever yields.",
+      "completed": true
+    },
+    "3": {
+      "title": "The Keep",
+      "pov": "Phoebe",
+      "dates": "8th of Ashenfall, afternoon (Caer Seryth, Vespur Plains, Halreth)",
+      "word_count": 1361,
+      "summary": "Phoebe fails her sequence all morning; the mismatched boot; the blister. Tella (half a spiked flail, limp) corrects her grip and her fear: who trained Elaine, words as daggers, swords as bargaining chips; the riftmark's weight; 'a political disaster for the Vel'Eran queen should she choose to be one'; Damien fears her. Ryn's acting command needled: 'ego. Or the thing that comes after and is worse. Disloyalty.' Phoebe leaves whispering the truth Tella didn't say.",
+      "completed": true
+    },
+    "4": {
+      "title": "The Duel",
+      "pov": "Brunor",
+      "dates": "8th of Ashenfall, evening (rain)",
+      "word_count": 3741,
+      "summary": "The contest: Caltherian court fencing over spear instincts; first blood to Damien, displayed. Psychological warfare — Uthred, Elaine, then Alessa — and Brunor charges; brawl; Nullbrand hums off Damien's enchanted gambeson. Killing blows declared; Elaine steps between them — her blade on Nullbrand, her dagger catching the golden plunge — and turns both men out of the bind. The grey-hooded woman at the gates, unmoved by blood. Damien says something only Elaine hears; her color goes. 'Golden Scales guildhall. By week's end.' Then the alley argument: the suppressed Alessa reports (Brunor silenced her scouts and can't say it), the Vigil context, Merea and 'congratulations', 'You are suffocating me, Brunor.' Frederick arrives out of the rain.",
+      "completed": true
+    },
+    "5": {
+      "title": "The Tavern / The Council",
+      "pov": "Elaine",
+      "dates": "8th (evening) and 9th of Ashenfall",
+      "word_count": 6378,
+      "summary": "AUTHOR'S HALF: The tavern — Beatrice, Vel'Eran spirits; the mark grinding against forty strangers; Frederick's 'Before.' and 'Two ropes... I count what's there.'; the charcoal word: Scaleblade; Celisia named; the void compared to Mark; why she really stopped the duel; Damien's rain-words withheld. The College of Cvostral: Darrian vs Osfeld, Unara Lackmin, Damien's smooth walls, the no-record chamber, Tauvor's opening. DRAFTED (pending review): the confession — Wyrshade vivisection, fifteen dead, Elaine recognizes inverted Detect Memory and withholds it; the butchery (she names the hive only inwardly); the untranslated voice on the one paper in the room ('Something answered.'); the pivot to First Era records and Vel'Era's deep forests; the escort contract (nine researchers, name-your-rate, truth withheld). Trio neither accepts nor refuses. 'Well. It pays.' / 'It's wrong.'",
+      "completed": false,
+      "_draft_note": "Second half drafted by assistant 2026-07-12; inventions listed in draft/chapter-05-draft-notes.md"
+    },
+    "6": {
+      "title": "The Golden Scale and the Hunt",
+      "pov": "Frederick",
+      "dates": "12th of Ashenfall (Day of Threads), 982 A.M.",
+      "word_count": 3322,
+      "summary": "DRAFTED (pending review): Lady Beauforth receives them instead of Damien — guest-fare, a round table, and an offer of exactly what they need: the Alessa ambush ledger under her seal, priced at what the Council wanted. She believes Damien didn't buy the ambush; someone spent blood in Beauforth colors. Elaine refuses the trade and bets the wife acts on the ledger anyway. Convergence on Candler's Row: Brunor's hunt in fragments — the swept ward (silence), warehouses moving 'wool' that bends oak (transaction), a broker who asked after 'Neorxn' in the spring (the name), and the message left for Halvyr: 'the accounts are all in order.' Not a cell — infrastructure, and aware. Frederick's count closes the vice: three creditors, one company, and they are not the ones holding the ledger.",
+      "completed": false,
+      "_draft_note": "Full chapter drafted by assistant 2026-07-12; inventions and two plot-commitment choices listed in draft/chapter-06-draft-notes.md"
+    },
+    "7": {
+      "title": "Whispernight",
+      "pov": "Galeran",
+      "dates": "14th of Ashenfall (Day of Hollow / Whispernight), 982 A.M.",
+      "word_count": 2423,
+      "summary": "DRAFTED (pending review): Dovelea Market, eastern Halreth. Galeran 'Garret' Quller, four weeks a dockhand, papered out of licensed work by a Merchant's Guild writ built to make him placeable. On Whispernight, Naeryn strings mourning charms for Rusk, Thatch, and Thom while the town gives its confessions to the millstream; Galeran keeps his 'in the arm' with the burned insignia. Four false rivermen ask after grey hair at the amnesty stone; a fifth watcher stands like a door on the Serenehold road (Anverus, unnamed). Naeryn reveals the masking sigil ('The rune taught me') and that on the night chroma runs slow, the rift-touched place in her doesn't - the pull east 'does not call. It assumes.' They slip north past the weir before the lanterns come down; Galeran plans again - 'the squad leader' returns.",
+      "completed": false,
+      "_draft_note": "Full chapter drafted by assistant 2026-07-13; inventions in draft/chapter-07-draft-notes.md"
+    }
+  },
+  "character_states": {
+    "brunor_halvyr": {
+      "location": "Glintgate",
+      "emotional_state": "Silent, ashamed after the duel and the alley argument; forearm cut bandaged; split lip, bruised nose",
+      "knows": [
+        {
+          "fact": "He suppressed the Alessa ambush reports and silenced Elaine's scouts — she doesn't know the second part",
+          "learned_in": "ch4 (internal)"
+        },
+        {
+          "fact": "Celisia is a Scaleblade; the Order is in Glintgate",
+          "learned_in": "ch5"
+        }
+      ],
+      "inventory": [
+        {
+          "item": "Nullbrand (the Black Blade)",
+          "status": "possessed"
+        }
+      ],
+      "relationships": {
+        "elaine": "Fractured — 'You are suffocating me'",
+        "frederick": "Covered for him; debt open",
+        "merea": "Secret relationship; announced to Elaine and Frederick before Book 2"
+      }
+    },
+    "elaine_morrandis": {
+      "location": "Glintgate",
+      "emotional_state": "Fury banked into control; carrying three withheld things: Damien's rain-words, the Throng knowledge, her feelings",
+      "knows": [
+        {
+          "fact": "Celisia (Scaleblade) revealed herself deliberately at the gate; same void as Mark before he was known",
+          "learned_in": "ch4-5"
+        },
+        {
+          "fact": "Kymancy/Detect Memory explains the Wyrshade assault (recognition pending the confession beats)",
+          "learned_in": "ch5"
+        },
+        {
+          "fact": "The Throng hive mind — Melody's Book 1 intelligence",
+          "learned_in": "book1"
+        },
+        {
+          "fact": "Whatever Damien said in the rain (withheld from reader and companions)",
+          "learned_in": "ch4"
+        }
+      ],
+      "inventory": [
+        {
+          "item": "Black sword (white grip, amethyst in ivory hilt)",
+          "status": "possessed"
+        },
+        {
+          "item": "Johanna's bundle: river stone + unfinished stallion carving",
+          "status": "carried always; monster-line talisman"
+        },
+        {
+          "item": "Charcoal + handkerchief (the written word 'Scaleblade')",
+          "status": "used ch5"
+        }
+      ],
+      "relationships": {
+        "brunor": "Loves him, unsaid; trust wounded by a year of decisions made for her",
+        "phoebe": "Sister; protected fiercely",
+        "damien": "Cousin-enemy; he fears her mark",
+        "tella": "Mentor; taught her the political forms"
+      }
+    },
+    "frederick_rowain": {
+      "location": "Glintgate",
+      "emotional_state": "Holding the middle; refused to let Brunor hang alone",
+      "knows": [
+        {
+          "fact": "Knew about Alessa 'before' — read the report the same morning as Brunor",
+          "learned_in": "ch5"
+        },
+        {
+          "fact": "Celisia/Scaleblade reveal",
+          "learned_in": "ch5"
+        }
+      ],
+      "inventory": [
+        {
+          "item": "Claymore; bull-shaped helmet; red leather ledger; silver Promise ring from Brunor",
+          "status": "possessed"
+        }
+      ],
+      "relationships": {
+        "brunor": "~30 years; 'It wasn't his idea' defended",
+        "elaine": "'Two ropes' honesty; she leans on him",
+        "west": "Cleared him for duty weeks ago (siege injury implied; Cain gave him the head scar)"
+      }
+    },
+    "phoebe_morrandis": {
+      "location": "Caer Seryth",
+      "emotional_state": "Frustrated, worried, rehearsing worst cases about Glintgate",
+      "knows": [
+        {
+          "fact": "Brunor and Merea's relationship (sheets: discovered it; resents the secrecy culture)",
+          "learned_in": "book1"
+        }
+      ],
+      "relationships": {
+        "tella": "Mentor; 'child'",
+        "ryn": "Acting commander she reports to; respects his precision"
+      }
+    },
+    "tella": {
+      "location": "Caer Seryth",
+      "emotional_state": "Steady; watching Ryn",
+      "knows": [],
+      "relationships": {
+        "phoebe": "Student-daughter",
+        "elaine": "Student-daughter; the truth she didn't say aloud"
+      }
+    },
+    "damien_beauforth": {
+      "location": "Glintgate",
+      "emotional_state": "Satisfied; bruise worn like an award",
+      "knows": [
+        {
+          "fact": "Whatever he said to Elaine in the rain",
+          "learned_in": "ch4"
+        }
+      ],
+      "relationships": {
+        "elaine": "Cousin he brands bastard and fears",
+        "wife": "Delegates precision diplomacy to her (ch6 planned)"
+      }
+    },
+    "galeran_quller": {
+      "location": "Leaving Dovelea Market northward, turning east (Halreth)",
+      "emotional_state": "Grief filed as reports; command function reawakened by the hunt",
+      "knows": [
+        {
+          "fact": "Lyra Ounvian is a Naaren Runescribe agent; his crew died to her orders and his plan",
+          "learned_in": "book1"
+        },
+        {
+          "fact": "Anverus's hunters have found Dovelea; the west road is watched",
+          "learned_in": "ch7"
+        },
+        {
+          "fact": "Naeryn's masking sigil came from the rift itself; the pull east assumes rather than asks",
+          "learned_in": "ch7"
+        }
+      ],
+      "inventory": [
+        {
+          "item": "Promise rank insignia, branding burned away",
+          "status": "carried against the forearm"
+        },
+        {
+          "item": "Three copper carp",
+          "status": "the treasury"
+        }
+      ],
+      "relationships": {
+        "naeryn": "Mutual trust rebuilt tonight; she named his unsaid want (the Promise)",
+        "anverus": "Hunter, one step behind",
+        "the_promise": "Deserter who cannot stop belonging"
+      }
+    },
+    "naeryn_mareen": {
+      "location": "With Galeran",
+      "emotional_state": "Steady hands over a growing pull she distrusts",
+      "knows": [
+        {
+          "fact": "The Kymancy rune taught her a masking sigil; the rift left visions that grow",
+          "learned_in": "book1"
+        },
+        {
+          "fact": "The pull runs east toward the sea (Aethryn beyond) and 'assumes'",
+          "learned_in": "ch7"
+        }
+      ],
+      "inventory": [
+        {
+          "item": "Mourning charms incl. three new (copper/wood/riverbone for Rusk, Thatch, Thom)",
+          "status": "braided"
+        }
+      ],
+      "relationships": {
+        "galeran": "Chosen loyalty; his conscience and mirror"
+      }
+    },
+    "anverus": {
+      "location": "Dovelea Market (Serenehold road)",
+      "emotional_state": "Unknown - rendered only at distance",
+      "knows": [
+        {
+          "fact": "The fugitives were in Dovelea; someone sold him the town",
+          "learned_in": "ch7"
+        }
+      ],
+      "relationships": {
+        "lyra_ounvian": "Her brutal, loyal enforcer (sheets)"
+      }
+    }
+  },
+  "established_facts": [
+    {
+      "fact": "Book 2 opens 7th-9th of Ashenfall, 982 A.M. — campfire (7th), arrival/duel/tavern (8th), College/council (9th)",
+      "established_in": "ch1-5 datelines"
+    },
+    {
+      "fact": "Archwarden Rhen Tauvor leads the Caltheran Council of Twelve (eleven Wardens + Archwarden); Ch 1's 'Telvor' is a typo (Flag #1)",
+      "established_in": "compendium + ch5"
+    },
+    {
+      "fact": "Nullbrand is Brunor's black blade: pre-Chroma metal, passive null field, mutes Elaine's mark nearby",
+      "established_in": "ch1-5 + sheets"
+    },
+    {
+      "fact": "Elaine: House Morrandis of Vel'Era (cadet of House Arsenia); niece of Queen Lysandria Arsenia; Damien Beauforth's cousin; branded 'the Bastard'; missing left pinky; riftmarked of Kymancy",
+      "established_in": "ch2-3 + sheets + compendium"
+    },
+    {
+      "fact": "The Promise 'lost the rift' in the Order's siege of the keep (Damien's taunt) — exact loss to confirm",
+      "established_in": "ch2"
+    },
+    {
+      "fact": "Alessa (Quartermaster Captain Alessa Dornal) was ambushed on the Glintgate road two months ago; route leaked; escort slaughtered; she was made to watch; recovering. Brunor suppressed the reports and silenced Elaine's scouts.",
+      "established_in": "ch2, ch4"
+    },
+    {
+      "fact": "The Wyrshade vivisection (981 A.M.) started a five-year countdown to the awakening of Elyrieth, the Kymancy Drake; the Kymancy Rift is at the Shadowfen (Naaren); nobody in-world knows the clock runs",
+      "established_in": "compendium"
+    },
+    {
+      "fact": "Celisia Ylmindian ('The Witch', Scaleblade, Master Conjurer) revealed herself deliberately to Elaine at the Silver Gate; reads as a void, like the person Mark before he was known",
+      "established_in": "ch4-5 + sheets"
+    },
+    {
+      "fact": "The Order of the Wyrm: anonymous true leader; Judas Wynvale second; ten Scaleblades in Voidsteel with drake-engraved helms; three helms missing; canon foils — Judas:Brunor, Caelus:Elaine, Kennway:Frederick, Celisia:Lune, Brycen:Hollow, Quinn:Merea",
+      "established_in": "sheets"
+    },
+    {
+      "fact": "Damien Beauforth is Lord Chancellor of Glintgate; golden runed blade + Gungnir; enchanted gambeson; never lost a duel; unreadable to the mark ('smooth walls')",
+      "established_in": "ch2-5"
+    },
+    {
+      "fact": "Unara Lackmin, Queen of Morninghall, sister of Warden Narana Lackmin, watched the trio at the College; five thousand garrison in forced-march reach",
+      "established_in": "ch5"
+    },
+    {
+      "fact": "The northern rift crisis is public: settlements emptying, wardstones tested, Darrian's eleven holders' seals seeking hired steel",
+      "established_in": "ch5"
+    },
+    {
+      "fact": "Two moons, Luuna and Sol; one visibly shattered and brighter (standing rule for night scenes; ch1 predates this rule — Flag)",
+      "established_in": "compendium Director's Notes"
+    },
+    {
+      "fact": "Caer Seryth stands in Halreth's Vespur Plains at the base of Vespine's Cradle; Glintgate is southern Caltheran through the passes; the Aldren rises near the Cradle",
+      "established_in": "compendium Director's Notes + ch1/ch3"
+    },
+    {
+      "fact": "Johanna Halvyr was found floating dead in a lake, cause unknown; her final words are carved into the war table",
+      "established_in": "sheets + ch1"
+    },
+    {
+      "fact": "Stonefield (~2 years ago): rogue Promise detachment under Esmarus IV executed a civilian family; Brunor and Elaine killed the same men; Ephram, a teenage deserter, was hanged under Brunor's command",
+      "established_in": "ch1 + sheets"
+    },
+    {
+      "fact": "Currency: silver seals, copper carp. Amenicite: dark-red metal from the Sol'telarī (Varkaan).",
+      "established_in": "ch1-2"
+    },
+    {
+      "fact": "War brewing since last winter: Naaren vs the four kingdoms; Glintgate's fighting men conscripted; Damien denies the war",
+      "established_in": "ch1-2"
+    }
+  ],
+  "foreshadowing": {
+    "_note": "Full tracker with 16 major threads: outline/foreshadowing-tracker.md",
+    "planted": [
+      {
+        "thread": "The Archwarden's Silence — why the Twelve travel and leave no record",
+        "planted_in": "ch5",
+        "expected_payoff": "TBD",
+        "paid_off": false
+      },
+      {
+        "thread": "Damien's unheard words to Elaine in the rain",
+        "planted_in": "ch4",
+        "expected_payoff": "TBD",
+        "paid_off": false
+      },
+      {
+        "thread": "Celisia's deliberate reveal; Caelus possibly behind the void",
+        "planted_in": "ch4-5",
+        "expected_payoff": "TBD",
+        "paid_off": false
+      },
+      {
+        "thread": "The poisoned contract — used twice for the same catastrophe",
+        "planted_in": "ch5 (beats)",
+        "expected_payoff": "TBD",
+        "paid_off": false
+      },
+      {
+        "thread": "Brunor's unsaid thing; Frederick's two-ropes debt",
+        "planted_in": "ch4-5",
+        "expected_payoff": "TBD",
+        "paid_off": false
+      },
+      {
+        "thread": "Mark — the void 'before any of us knew what he was'; the chroma storm",
+        "planted_in": "ch5",
+        "expected_payoff": "TBD",
+        "paid_off": false
+      },
+      {
+        "thread": "Unara Lackmin's measuring gaze",
+        "planted_in": "ch5",
+        "expected_payoff": "TBD",
+        "paid_off": false
+      },
+      {
+        "thread": "Mikah asking where Phoebe is, twice",
+        "planted_in": "ch1",
+        "expected_payoff": "TBD",
+        "paid_off": false
+      },
+      {
+        "thread": "Johanna's bundle — the monster-line talisman; the future child",
+        "planted_in": "ch1",
+        "expected_payoff": "TBD",
+        "paid_off": false
+      },
+      {
+        "thread": "Ryn Halden: acting command + confessed love + Tella's 'disloyalty' warning",
+        "planted_in": "ch3 + sheets",
+        "expected_payoff": "TBD",
+        "paid_off": false
+      }
+    ],
+    "paid_off": []
+  },
+  "timeline": {
+    "ch1_scene1": "7th of Ashenfall, 982 A.M. — Day of Hollow — Blackwood clearing",
+    "ch1_scene2": "8th — Day of Flame — Silver Road into Glintgate, dawn to midday",
+    "ch2": "8th, afternoon-evening — merchant quarter, Bordou Square",
+    "ch3": "8th, afternoon — Caer Seryth",
+    "ch4": "8th, evening — the duel, the alley",
+    "ch5_tavern": "8th, night",
+    "ch5_college": "9th — the College of Cvostral ('the evening before' = the duel)",
+    "_flag": "Roadmap's 'one week after the tavern' is superseded by prose; compendium's 983-985 window vs 982 datelines unresolved (Flag #13)"
+  },
+  "invented_details": [],
+  "locations": {
+    "caer_seryth": {
+      "description": "The Promise's keep, six hundred souls; eastern Vespur Plains (Halreth), base of Vespine's Cradle; war chamber with Johanna's carved words",
+      "first_seen": "ch3 (Book 2)"
+    },
+    "glintgate": {
+      "description": "Southern Caltheran commercial engine on the Aldren estuary: Bridge of Kings, Adian's Mount, Silver Gate, Goldroad, skybridges, Bordou Square ('the Crimson Cage'), Candler's Row, College of Cvostral, Golden Scale guildhall, western entertainment ward",
+      "first_seen": "ch1"
+    },
+    "blackwood_forest": {
+      "description": "Silent pines north of Vespine's Cradle (Caltheran); House Blackwood's ancient no-battle law",
+      "first_seen": "ch1"
+    },
+    "hudria": {
+      "description": "Caltheran/Varkaan border city; Halvyrs' original keep town; the watchtower; now governed by House Farryn",
+      "first_seen": "ch1 (flashback)"
+    },
+    "the_vigil": {
+      "description": "Promise rift outpost; Elaine's three-week mission surrounded by the Order; Reyka commands there (Book 1 state)",
+      "first_seen": "ch4 (referenced)"
+    },
+    "shadowfen": {
+      "description": "Naaren marshland southwest near the Caltheran border; the Kymancy Rift corridor; the pulse that sees Elaine",
+      "first_seen": "book1 (referenced)"
+    },
+    "vel_era": {
+      "description": "Arsenia queendom; primordial silver forest; secret Druids; the Hollow Crown in forbidden zones; expedition target",
+      "first_seen": "ch5 (referenced)"
+    },
+    "college_of_cvostral": {
+      "description": "Slivermen's guild school at the Goldroad's end; rune-cut granite; the Twelve held court there",
+      "first_seen": "ch5"
+    }
+  },
+  "relationships": {
+    "brunor:elaine": {
+      "status": "Lowest point of trust: suppressed reports exposed, 'suffocating', the unsaid thing on both sides",
+      "history": [
+        {
+          "chapter": 4,
+          "state": "Rain argument; ends in silence"
+        }
+      ]
+    },
+    "brunor:frederick": {
+      "status": "Two-ropes solidarity; debt open",
+      "history": []
+    },
+    "elaine:frederick": {
+      "status": "Hard honesty accepted; he sided with the decision, not against her",
+      "history": []
+    },
+    "brunor:merea": {
+      "status": "Secret relationship, announced to the inner circle; Phoebe knows and resents",
+      "history": []
+    },
+    "elaine:damien": {
+      "status": "Cousin-enemies; his fear vs her restraint; his rain-words unrevealed",
+      "history": []
+    },
+    "phoebe:tella": {
+      "status": "Mentor/student, rough warmth",
+      "history": []
+    },
+    "trio:council": {
+      "status": "Summoned; confession pending; contract coming",
+      "history": []
+    },
+    "trio:order": {
+      "status": "Watched, announced to (Celisia), and about to be studied back (ch6)",
+      "history": []
+    }
+  },
+  "mercy_engine": {
+    "_note": "Candidates only — see planning/mercy-ledger.md",
+    "mercy_acts": [
+      {
+        "character": "elaine",
+        "recipient": "Glintgate beggars",
+        "description": "Copper carp to six beggars until Brunor stops her",
+        "chapter": 2,
+        "scene": 1,
+        "_status": "seed, unconfirmed as engine mercy"
+      },
+      {
+        "character": "brunor",
+        "recipient": "Hans (Damien's messenger)",
+        "description": "Dagger drawn blood but withheld the kill in the open square",
+        "chapter": 2,
+        "scene": 2,
+        "_status": "seed, unconfirmed"
+      }
+    ],
+    "mercy_refused": [],
+    "mercy_balance": 0
+  }
+}

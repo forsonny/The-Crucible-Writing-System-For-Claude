@@ -1,0 +1,46 @@
+{
+  "project": {
+    "title": "For the Promise",
+    "premise": "Johanna's Promise answers the Archwarden's summons to Glintgate and is pulled into three converging dangers: the Council's poisoned escort contract into the deep forests of Vel'Era, Damien's political machinery, and the Order's hidden infrastructure in the city.",
+    "created": "2026-07-12T20:59:59.945119",
+    "last_updated": "2026-07-12T21:00:00",
+    "mode": "retroactive",
+    "note": "Planning documents generated retroactively from the author's Book 2 roadmap (planning/source-roadmap.md), not via the questionnaire. Documents contain [PROPOSED] and [TBD] markers requiring author input; see CLAUDE.md Open Questions."
+  },
+  "scope": {
+    "target_length": null,
+    "complexity": "ensemble",
+    "chapters": null
+  },
+  "progress": {
+    "current_document": 9,
+    "current_question": 1,
+    "documents_complete": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "total_questions_answered": 0
+  },
+  "answers": {
+    "doc1_crucible_thesis": {},
+    "doc2_quest_strand": {},
+    "doc3_fire_strand": {},
+    "doc4_constellation_strand": {},
+    "doc5_forge_points": {
+      "fp0_ignition": {},
+      "fp1_first": {},
+      "fp2_second": {},
+      "fp3_third": {},
+      "apex": {}
+    },
+    "doc6_dark_mirror": {},
+    "doc7_constellation_bible": {
+      "protagonist": {},
+      "characters": []
+    },
+    "doc8_mercy_ledger": {
+      "mercy_1": {},
+      "mercy_2": {},
+      "mercy_3": {},
+      "mercy_4": {}
+    },
+    "doc9_world_forge": {}
+  }
+}

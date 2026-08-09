@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "crucible-suite",
-      "version": "1.0.17",
+      "version": "1.0.18",
       "description": "Complete writing system for epic fantasy novels using the Crucible Structure. Includes planning, outlining, prose writing with bi-chapter reviews, and editing.",
       "author": {
         "name": "Crucible Writing System"

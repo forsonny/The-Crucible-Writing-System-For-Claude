@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "crucible-writing-system": {
+      "source": {
+        "source": "github",
+        "repo": "Fernandop5995/the-crucible-writing-system-for-claude"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "crucible-suite@crucible-writing-system": true
+  }
+}
